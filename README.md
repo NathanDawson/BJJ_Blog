@@ -1,27 +1,37 @@
-# Next.js + Tailwind CSS Example
+# The BJJ Journey
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A simple blog website developed with React, enabling me to write blog posts about my Brazilian Jiu Jitsu (BJJ) training sessions to reflect.
 
-## Deploy your own
+<br>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+The website features the following:
+- Blog posts both summarized and detailed upon clicking 'Continue Reading'
+- A 'Recent Posts' section showcasing the top 3 most recent posts
+- A 'Categories' section allowing for the filtering of posts
+- Displays author information at the bottom of their posts
+- A comment section, allowing users to 'Leave a Comment'
+- User submitted comments are first sent as 'Drafts' and after admin review inside the database, admins have the ability to either publish the comments to the website (allowing the comments to be shown) or not with admin discretion
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<br>
 
-## How to use
+### Website Showcase
+---
+<br>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+<img
+  src="img/web_home_page.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 60vw">
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+ <img
+  src="img/web_post.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 60vw">
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+  <img
+  src="img/web_comment_sec.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 60vw">
