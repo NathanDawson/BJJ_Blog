@@ -16,7 +16,7 @@ return (
             <div className='mb:float-left block'>
                 <Link href='/'>
                     <span className='cursor-pointer font-bold text-4xl text-white'>
-                        Blog BJJ
+                        The BJJ Journey
                     </span>
                 </Link>
             </div>
